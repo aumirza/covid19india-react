@@ -6,7 +6,8 @@ import {scaleOrdinal} from 'd3-scale';
 // export const API_DOMAIN = 'https://api.covid19india.org';
 export const API_DOMAIN = 'https://data.covid19india.org';
 
-export const DATA_API_ROOT = `${API_DOMAIN}/v4/min`;
+// export const DATA_API_ROOT = `${API_DOMAIN}/v4/min`;
+export const DATA_API_ROOT = `/data`;
 export const API_REFRESH_INTERVAL = 100000; // seconds
 
 export const LOCALE_SHORTHANDS = {
